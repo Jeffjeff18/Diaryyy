@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="diary.css">
+    <title>Page 4: Diary Entry</title>
+</head>
+<body>
+    <aside class="left">
+        <ul>
+            <li><a class="active" href="page2.html">Back</a></li>
+        </ul>
+    </aside>
+    <h1>Diary</h1>
+    <div class="login">
+        <form action="diary.php" method="post">
+            <label for="top">Topic:</label>
+            <input type="text" id="top" name="top">
+            <h3>Choose Category:</h3>
+            <input type="text" id="cat" name="cat">
+            <label for="con"><h3>Content</h3></label>
+            <textarea id="con" name="con" rows="15" cols="38"></textarea>
+            <input type="date" id="date" name="date">
+            <br><br>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
